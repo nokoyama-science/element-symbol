@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧪 元素マスターチャレンジ Ver.3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🧪 元素マスターチャレンジ</h1>
+
+    <div class="top-bar">
+        <div id="questionNumber">問題 1 / 100</div>
+        <div id="score">得点：0</div>
+    </div>
+
+    <div id="questionType" class="question-type">
+        【元素記号を書きなさい】
+    </div>
+
+    <div id="question" class="question">
+        ナトリウム
+    </div>
+
+    <input
+        type="text"
+        id="answer"
+        placeholder="答えを入力"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+        autofocus
+    >
+
+    <br>
+
+    <button id="submitButton">決定</button>
+
+    <div id="message"></div>
+
+    <div id="progress">
+        全100問のランダムチャレンジ
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
